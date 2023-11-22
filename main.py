@@ -540,11 +540,11 @@ while not finished:
         elif b.hittest2(airship2) and airship2.live:
             airship2.live = 0
             airship2.hit()
-            airship2 = Airship(screen, 0, rnd(300, 350), rnd(80, 140), rnd(50, 60))
+            airship2 = Airship(screen, 0, rnd(200, 300), rnd(80, 140), rnd(50, 60))
         elif b.hittest2(airship3) and airship3.live:
             airship3.live = 0
             airship3.hit()
-            airship3 = Airship(screen, 0, rnd(300, 350), rnd(80, 140), rnd(50, 60))
+            airship3 = Airship(screen, 0, rnd(100, 250), rnd(80, 140), rnd(50, 60))
 
     for g in bombs:
         g.move(dt)
